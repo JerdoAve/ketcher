@@ -105,7 +105,12 @@ export const formsState = {
       type: 'GEN'
     }
   },
-  sdata: initSdata()
+  sdata: initSdata(),
+  text: {
+    errors: {},
+    valid: true,
+    result: {}
+  }
 }
 
 export function updateFormState(data) {

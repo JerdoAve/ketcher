@@ -24,6 +24,7 @@ import TemplatesLib from './template/template-lib'
 import About from './mainmenu/about'
 import Help from './mainmenu/help'
 import Miew from './mainmenu/miew'
+import Text from './toolbox/text'
 
 // schemify dialogs
 import Atom from './toolbox/atom'
@@ -62,5 +63,6 @@ export default {
   save: Save,
   settings: Settings,
   sgroup: Sgroup,
-  sdata: Sdata
+  sdata: Sdata,
+  text: Text
 }

@@ -90,6 +90,11 @@ export default function initEditor(dispatch, getState) {
           values: res.values,
           type: 'rlabel'
         }))
+      } else if (elem.type === 'text') {
+        dlg = openDialog(dispatch, 'text', {}).then(res => ({
+          values: res.values,
+          type: 'text'
+        }))
       } else {
         dlg = openDialog(dispatch, 'period-table', elem)
       }

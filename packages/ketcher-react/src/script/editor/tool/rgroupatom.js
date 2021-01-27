@@ -53,7 +53,6 @@ function propsDialog(editor, id, pos) {
   const atom = id || id === 0 ? struct.atoms.get(id) : null
   const rglabel = atom ? atom.rglabel : 0
   const label = atom ? atom.label : 'R#'
-
   const res = editor.event.elementEdit.dispatch({
     label: 'R#',
     rglabel,

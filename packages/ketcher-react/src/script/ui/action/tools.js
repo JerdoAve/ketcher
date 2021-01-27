@@ -124,6 +124,10 @@ const toolActions = {
   'shape-line': {
     title: 'Shape Line',
     action: { tool: 'simpleobject', opts: 'line' }
+  },
+  'text-action': {
+    title: 'Text',
+    action: { tool: 'text' }
   }
 }
 
